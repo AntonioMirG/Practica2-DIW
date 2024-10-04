@@ -1,6 +1,6 @@
 # Practica2-DIW
 
-Pregunta 1
+**Pregunta 1**
 
 1.1 ¿En qué́ consiste el efecto de faux columns o columnas falsas Pon un ejemplo propio de su utilización.
 
@@ -33,7 +33,7 @@ Encontramos 3 tipos de listas, desordenada, ordenada y definición
 
 - Lista de definición (dl): Se utiliza para presentar terminos concretos con su definición como por ejemplo en un tutorial, se podrían explicar los tecnicismos mediante una lista de definición.
 
-Pregunta 2
+**Pregunta 2**
 
 2.1 ¿En qué́ propiedad/es del modelo de cajas se pueden aplicar valores negativos? Pon un ejemplo en el que tenga sentido hacerlo.
 
@@ -63,7 +63,7 @@ La propiedad overflow controla cómo se manejan los contenidos que exceden el ta
 
 - Auto: Se agregan barras de desplazamiento solo si el contenido se desborda. Si no hay desbordamiento, no se muestran.
 
-Pregunta 3
+**Pregunta 3**
 
 3.1 ¿En qué consiste el Quirks mode? ¿De qué forma hay que tenerlo en cuenta al diseñar nuestras páginas?
 
