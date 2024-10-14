@@ -17,6 +17,7 @@ main {
 
 }
 
+
 .container-resources {
 
     background-color: white;
@@ -107,6 +108,9 @@ ol {
     color: rgb(165, 88, 36)
 }
 
+.h1-article{
+    text-align: left;
+}
 .h2-brownline {
     border-bottom: 2px solid #000;
     padding-bottom: 10px;
@@ -362,25 +366,19 @@ ol {
 .h1-techniques {
 
     text-align: right;
-    font-size: 20px;
+    font-size: 40px;
 }
 
-h2 {
+.h2-brown {
     border-bottom: 2px solid #000;
     padding-bottom: 10px;
     border-image: repeating-linear-gradient(90deg,
-            /* Orientación horizontal de las rayas */
-            #b5651d,
-            /* Marrón */
-            #b5651d 10px,
-            /* Ancho de 10px para la raya marrón */
-            #fff 10px,
-            /* Blanco empieza justo después de 10px */
-            #fff 20px
-            /* La raya blanca ocupa otros 10px */
-        ) 10;
-    /* Controla cuántas repeticiones habrá */
-}
+             #b5651d,
+             #b5651d 10px,
+             #fff 10px,
+             #fff 20px
+         ) 10;
+ }
 
 
 .ul-techniques {
@@ -405,9 +403,6 @@ h2 {
 
 .carta-image {
     display: block;
-    /* Hace que la imagen sea un elemento de bloque */
     margin: 0 auto;
-    /* Centra la imagen horizontalmente */
     text-align: center;
-    /* Asegura que esté centrada */
-}
+ }
