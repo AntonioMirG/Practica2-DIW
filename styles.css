@@ -6,10 +6,10 @@ body {
 
 main {
     align-items: center;
-    background-color: rgb(244, 233, 154);
     justify-content: center;
-    padding-inline: 600px;
+    padding-inline: 100px;
 }
+
 
 .container {
     background-color: white;
@@ -22,6 +22,7 @@ main {
     background-color: white;
     padding: 20px;
     max-width: 700px;
+    margin: 0 auto;
 }
 
 .container img {
@@ -56,14 +57,6 @@ main {
 .indice li:hover {
     background-color: grey;
     color: white;
-}
-
-hr {
-    content: '';
-    display: block;
-    width: 50%;
-    margin: 0.5em auto;
-    border-bottom: 2px dotted black;
 }
 
 ul {
@@ -114,24 +107,33 @@ ol {
     color: rgb(165, 88, 36)
 }
 
+.h2-brownline {
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+    border-image: repeating-linear-gradient(90deg,
+
+            #b5651d,
+
+            #b5651d 10px,
+
+            #fff 10px,
+
+            #fff 20px) 10;
+
+}
+
 .list li {
 
     text-align: left;
 }
 
-.verticalline {
-    width: 2px;
-    height: 100%;
-    background-color: #7B3F00;
-    margin-right: 10px;
-}
 
 .phototext {
 
     text-align: center;
 }
 
-.phototext img{
+.phototext img {
 
     width: 300px;
     height: 300px;
@@ -146,15 +148,15 @@ ol {
 }
 
 .finalrectangle a {
-    color: brown;  
-    text-decoration: none;  
+    color: brown;
+    text-decoration: none;
 }
 
 .Judith-Membrives-img {
     float: left;
     margin: 10px;
     padding: 10px;
- 
+
 }
 
 .indice ul {
@@ -183,21 +185,7 @@ ol {
     color: white;
 }
 
-hr {
-    background: linear-gradient(to right,
-            #7B3F00 20%,
-            white 20%,
-            white 40%,
-            #7B3F00 40%,
-            #7B3F00 60%,
-            white 60%,
-            white 80%,
-            #7B3F00 80%,
-            #7B3F00 100%);
 
-
-    height: 2px;
-}
 
 ul {
     text-align: center;
@@ -216,27 +204,27 @@ ol {
     padding: 10px;
     border: 2px solid #ffea00;
     text-align: left;
-    
+
 }
 
- 
+
 
 .ul-resources {
-    list-style-type: square;  
+    list-style-type: square;
 }
 
 
 
 .lista-anidada {
-list-style-image: url(img/usabilidad-icono.png);    
-text-align: left;
+    list-style-image: url(img/usabilidad-icono.png);
+    text-align: left;
 }
 
 .li-resources {
-    list-style-type: square; 
-    margin-left: 20px;        
-    padding-left: 0;    
-    text-align: left;      
+    list-style-type: square;
+    margin-left: 20px;
+    padding-left: 0;
+    text-align: left;
 }
 
 .ol3 {
@@ -244,7 +232,7 @@ text-align: left;
     text-align: left;
 }
 
-.ol3 a{
+.ol3 a {
     color: black;
     text-decoration: none;
 }
@@ -286,17 +274,47 @@ text-align: left;
     color: rgb(165, 88, 36)
 }
 
+.font-20{
+    font-size: 20px;
+}
+
 .list li {
 
     text-align: left;
 }
 
 .verticalline {
-    width: 2px;
-    height: 100%;
-    background-color: #7B3F00;
-    margin-right: 10px;
+    margin-left: 145px;
+    border-left: 2px solid brown;
+    display: flex;
+
 }
+
+.verticalline li {
+    white-space: nowrap;
+}
+
+
+.verticalline2 {
+    margin-left: 145px;
+    border-left: 2px solid rgb(92, 86, 86);
+    margin-right: 145px;
+    border-right: 2px solid rgb(92, 86, 86);
+    display: flex;
+    padding-inline: 10px;
+    white-space: normal;
+    overflow-wrap: break-word;
+    font-size: 16px;
+}
+
+.citeparrafo {
+    max-width: 100%;
+    width: 10000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
 
 .phototext {
 
@@ -312,10 +330,11 @@ text-align: left;
     text-align: left;
 }
 
-.footer-resources {
-
+.footer-resources-techniques {
     text-align: center;
-    padding: 50px;
+    padding: 30px;
+    margin: 0 auto;
+
 }
 
 .h1-resources {
@@ -324,7 +343,71 @@ text-align: left;
     text-align: center;
 }
 
-.ol-finalrectangle{
+.ol-finalrectangle {
 
     list-style-type: decimal;
- }
+}
+
+
+
+/* CSS Dedicado a techniques */
+
+.container-techniques {
+    background-color: white;
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.h1-techniques {
+
+    text-align: right;
+    font-size: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+    border-image: repeating-linear-gradient(90deg,
+            /* Orientación horizontal de las rayas */
+            #b5651d,
+            /* Marrón */
+            #b5651d 10px,
+            /* Ancho de 10px para la raya marrón */
+            #fff 10px,
+            /* Blanco empieza justo después de 10px */
+            #fff 20px
+            /* La raya blanca ocupa otros 10px */
+        ) 10;
+    /* Controla cuántas repeticiones habrá */
+}
+
+
+.ul-techniques {
+
+    text-align: left;
+
+}
+
+.lista-techniques li {
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.hola {
+    text-align: center;
+}
+
+.lista-techniques {
+    list-style-image: url(img/check-icono.png);
+    text-align: left;
+}
+
+.carta-image {
+    display: block;
+    /* Hace que la imagen sea un elemento de bloque */
+    margin: 0 auto;
+    /* Centra la imagen horizontalmente */
+    text-align: center;
+    /* Asegura que esté centrada */
+}
