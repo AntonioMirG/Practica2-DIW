@@ -71,3 +71,11 @@ Quirks mode es un modo de renderizado en los navegadores web que imita el compor
 
 3.2 ¿Cuáles son las principales características que debe tener una página web para ser accesible? Pon ejemplos de cada una de ellas.
 
+Disponible: El contenido debe estar disponible para todos, utilizando alternativas textuales y adaptabilidad para usuarios con discapacidades sensoriales.
+
+Operable: El sitio debe poder ser usado con diferentes dispositivos.
+
+Comprensible: El contenido debe ser claro y fácil de entender y utilizar un lenguaje simple.
+
+Robusto: El sitio debe estar preparado para ser accesible en el futuro.
+
